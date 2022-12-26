@@ -11,6 +11,9 @@
 		F2188F5F295702F80024AD16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2188F5E295702F80024AD16 /* Assets.xcassets */; };
 		F2188F62295702F80024AD16 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2188F60295702F80024AD16 /* MainMenu.xib */; };
 		F2188F64295702F80024AD16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2188F63295702F80024AD16 /* main.m */; };
+		F2188F6D2957042E0024AD16 /* DDHMonthsOverviewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2188F6C2957042E0024AD16 /* DDHMonthsOverviewWindowController.m */; };
+		F2188F70295704580024AD16 /* DDHMonthsOverviewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F2188F6F295704580024AD16 /* DDHMonthsOverviewWindow.m */; };
+		F220B9C02958AD1E001DD662 /* DDHMonthData.m in Sources */ = {isa = PBXBuildFile; fileRef = F220B9BF2958AD1E001DD662 /* DDHMonthData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,12 @@
 		F2188F61295702F80024AD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F2188F63295702F80024AD16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2188F65295702F80024AD16 /* FinancialReportsParser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinancialReportsParser.entitlements; sourceTree = "<group>"; };
+		F2188F6B2957042E0024AD16 /* DDHMonthsOverviewWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDHMonthsOverviewWindowController.h; sourceTree = "<group>"; };
+		F2188F6C2957042E0024AD16 /* DDHMonthsOverviewWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDHMonthsOverviewWindowController.m; sourceTree = "<group>"; };
+		F2188F6E295704580024AD16 /* DDHMonthsOverviewWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDHMonthsOverviewWindow.h; sourceTree = "<group>"; };
+		F2188F6F295704580024AD16 /* DDHMonthsOverviewWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDHMonthsOverviewWindow.m; sourceTree = "<group>"; };
+		F220B9BE2958AD1E001DD662 /* DDHMonthData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDHMonthData.h; sourceTree = "<group>"; };
+		F220B9BF2958AD1E001DD662 /* DDHMonthData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDHMonthData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +64,12 @@
 			children = (
 				F2188F5B295702F70024AD16 /* AppDelegate.h */,
 				F2188F5C295702F70024AD16 /* AppDelegate.m */,
+				F2188F6B2957042E0024AD16 /* DDHMonthsOverviewWindowController.h */,
+				F2188F6C2957042E0024AD16 /* DDHMonthsOverviewWindowController.m */,
+				F2188F6E295704580024AD16 /* DDHMonthsOverviewWindow.h */,
+				F2188F6F295704580024AD16 /* DDHMonthsOverviewWindow.m */,
+				F220B9BE2958AD1E001DD662 /* DDHMonthData.h */,
+				F220B9BF2958AD1E001DD662 /* DDHMonthData.m */,
 				F2188F5E295702F80024AD16 /* Assets.xcassets */,
 				F2188F60295702F80024AD16 /* MainMenu.xib */,
 				F2188F63295702F80024AD16 /* main.m */,
@@ -132,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2188F70295704580024AD16 /* DDHMonthsOverviewWindow.m in Sources */,
 				F2188F64295702F80024AD16 /* main.m in Sources */,
 				F2188F5D295702F70024AD16 /* AppDelegate.m in Sources */,
+				F2188F6D2957042E0024AD16 /* DDHMonthsOverviewWindowController.m in Sources */,
+				F220B9C02958AD1E001DD662 /* DDHMonthData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

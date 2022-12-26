@@ -1,21 +1,19 @@
-//
-//  AppDelegate.m
-//  FinancialReportsParser
-//
 //  Created by Dominik Hauser on 24.12.22.
 //
 
 #import "AppDelegate.h"
+#import "DDHMonthsOverviewWindowController.h"
 
 @interface AppDelegate ()
-
-@property (strong) IBOutlet NSWindow *window;
+@property (strong) DDHMonthsOverviewWindowController *monthsOverviewWindowController;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-  // Insert code here to initialize your application
+  DDHMonthsOverviewWindowController *monthsOverviewWindowController = [[DDHMonthsOverviewWindowController alloc] init];
+  [monthsOverviewWindowController showWindow:self];
+  [self setMonthsOverviewWindowController:monthsOverviewWindowController];
 }
 
 
